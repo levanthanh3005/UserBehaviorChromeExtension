@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>User behaviors</h2>
+
+<table>
+  <tr>
+    <th>UserId</th>
+    <th>Title</th>
+    <th >URL</th>
+    <th>Start Time</th>
+    <th>End Time</th>
+    <th>Key words</th>
+    <th>Category</th>
+    <th>Behavior</th>
+  </tr>
+  {% for item in items %}
+  <tr>
+    <td>X</td>
+    <td>{{ item.title }}</td>
+    <td><a href={{item.url}}>{{ item.shortUrl }}</a></td>
+    <td>{{ item.startTime}}</td>
+    <td>{{ item.endTime}}</td>
+    <td>{{ item.keywords}}</td>
+    <td>{{ item.category}}</td>
+    <td>{{ item.behavior}}</td>
+  </tr>
+  {% endfor %}
+</table>
+</body>
+</html>

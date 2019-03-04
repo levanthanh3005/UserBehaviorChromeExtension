@@ -1,0 +1,14 @@
+docker run -it --rm -p 5000:5000 --network bridge \
+    --volume $HOME/Desktop/Tools/ChromeExtension/UserAnalysis/BehaviorSvr:/todo \
+    nodebehaviorsvr bash
+
+########
+https://www.bogotobogo.com/python/python_site_page_ranking_by_keywords.php
+https://github.com/davidadamojr/TextRank
+https://github.com/domantasm96/URL-categorization-using-machine-learning
+https://towardsdatascience.com/industrial-classification-of-websites-by-machine-learning-with-hands-on-python-3761b1b530f1
+https://github.com/scikit-learn/scikit-learn/tree/master/doc/tutorial/text_analytics
+
+####
+https://github.com/vietnguyen91/Yolo-v2-pytorch?fbclid=IwAR02Swxb6kxbCEKG9NRaLEXqqOcdKRWKTQxGg_G7uJXr25Rjb6ltJUD5Y9k
+https://medium.freecodecamp.org/my-open-source-instagram-bot-got-me-2-500-real-followers-for-5-in-server-costs-e40491358340

@@ -1,0 +1,14 @@
+[
+	{
+		"words" : ["Office", "School", "phone", "Technology", "Electronics", "Cell", "Business", "Education", "Classroom"],
+		"key" : "Technology, Office, & Education products website"
+	},
+	{
+		"words" : ["Restaurant", "Hospitality", "Tub", "Drain", "Pool", "Filtration", "Floor", "Restroom", "Consumer", "Care", "Bags", "Disposables"],
+		"key" : "Consumer products website"
+	},
+	{
+		"words" : ["Pull", "Lifts", "Pneumatic", "Emergency", "Finishing", "Hydraulic", "Lockout", "Towers", "Drywall", "Tools", "Packaging", "Measure", "Tag "],
+		"key" : "Industrial Tools and Hardware products website"
+	}
+]
