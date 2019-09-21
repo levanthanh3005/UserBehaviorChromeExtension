@@ -1,0 +1,23 @@
+{
+  "name": "UserBehaviors",
+  "version": "1.0",
+
+  "browser_action": {
+      "default_title": "UserBehaviors",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+
+  "background": {
+      "scripts": ["jquery-3.3.1.min.js", "bg.js"]
+  },
+  
+  "permissions": [
+      "tabs",
+      "storage",
+      "processes", "tabs",
+      "https://*/*",
+      "http://*/*"
+  ],
+  "manifest_version": 2
+}
